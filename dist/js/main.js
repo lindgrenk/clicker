@@ -1,1 +1,1 @@
-var hej="hej";console.log(hej);
+function clicker(){counter+=1,document.getElementById("points").innerHTML=counter}var counter=0,points=0,clicks=0;

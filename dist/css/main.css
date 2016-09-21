@@ -1,1 +1,1 @@
-body{background-color:red}h1{color:#fff}
+.section{max-width:960px;margin:0 auto;padding:40px 20px;position:relative;transition:all .2s}.section+.section::before{position:absolute;top:0;left:20px;right:20px;height:1px;background-color:#231F20;content:''}.section.section--centered{text-align:center}.upgrades{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center}
