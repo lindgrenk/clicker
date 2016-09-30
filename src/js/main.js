@@ -118,7 +118,7 @@ function upgrade1() {
 
 function upgrade2() {
 
-	cost = upg2.cost;
+	cost = upg2.cost * (upg2.amount + 1);
 
 	if (counter < cost) {
 		console.log("need " + (cost - counter) + " more candy");
@@ -133,7 +133,7 @@ function upgrade2() {
 
 function upgrade3() {
 
-	cost = upg3.cost;
+	cost = upg3.cost * (upg3.amount + 1);
 
 	if (counter < cost) {
 		console.log("need " + (cost - counter) + " more candy");
@@ -148,7 +148,7 @@ function upgrade3() {
 
 function upgrade4() {
 
-	cost = upg4.cost;
+	cost = upg4.cost * (upg4.amount + 1);
 
 	if (counter < cost) {
 		console.log("need " + (cost - counter) + " more candy");
@@ -163,7 +163,7 @@ function upgrade4() {
 
 function upgrade5() {
 
-	cost = upg5.cost;
+	cost = upg5.cost * (upg5.amount + 1);
 
 	if (counter < cost) {
 		console.log("need " + (cost - counter) + " more candy");
